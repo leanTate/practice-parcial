@@ -1,0 +1,18 @@
+C:\Users\lean\source\repos\arbol genealogico\bin\Debug\net6.0-windows\arbol genealogico.exe
+C:\Users\lean\source\repos\arbol genealogico\bin\Debug\net6.0-windows\arbol genealogico.deps.json
+C:\Users\lean\source\repos\arbol genealogico\bin\Debug\net6.0-windows\arbol genealogico.runtimeconfig.json
+C:\Users\lean\source\repos\arbol genealogico\bin\Debug\net6.0-windows\arbol genealogico.dll
+C:\Users\lean\source\repos\arbol genealogico\bin\Debug\net6.0-windows\arbol genealogico.pdb
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.csproj.AssemblyReference.cache
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol_genealogico.Form1.resources
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.csproj.GenerateResource.cache
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.AssemblyInfoInputs.cache
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.AssemblyInfo.cs
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.csproj.CoreCompileInputs.cache
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.dll
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\refint\arbol genealogico.dll
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.pdb
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.genruntimeconfig.cache
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\ref\arbol genealogico.dll
+C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol_genealogico.frame2.resources
