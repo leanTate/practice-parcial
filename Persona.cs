@@ -19,10 +19,10 @@ namespace arbol_genealogico
             this.name = Name;
             this.lastname = Lastname;
             this.age = Age;
-            this.mother = "";
-            this.father = "";
+            this.mother = "m";
+            this.father = "f";
             SavePersona(this.name,this.lastname,this.age,this.mother,this.father);
-            MessageBox.Show("se creo="+" "+this.name);
+            MessageBox.Show($"se creo={this.name},{this.lastname}");
         }
         private void SavePersona(string Name, string Lastname, int Age,string mother,string father){
             FileStream FPersons = new FileStream("Persons.csv", FileMode.Append);

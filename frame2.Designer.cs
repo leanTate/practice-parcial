@@ -56,7 +56,7 @@
             this.lista1.ItemHeight = 15;
             this.lista1.Location = new System.Drawing.Point(25, 12);
             this.lista1.Name = "lista1";
-            this.lista1.Size = new System.Drawing.Size(271, 244);
+            this.lista1.Size = new System.Drawing.Size(322, 274);
             this.lista1.TabIndex = 2;
             // 
             // label1
