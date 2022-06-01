@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lean\\.nuget\\packages\\": {},
+    "C:\\Users\\Leandro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lean\\source\\repos\\arbol genealogico\\arbol genealogico.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\practice-parcial\\arbol genealogico.csproj",
       "projectName": "arbol genealogico",
-      "projectPath": "C:\\Users\\lean\\source\\repos\\arbol genealogico\\arbol genealogico.csproj",
-      "packagesPath": "C:\\Users\\lean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lean\\source\\repos\\arbol genealogico\\obj\\",
+      "projectPath": "C:\\Users\\Leandro\\Documents\\practice-parcial\\arbol genealogico.csproj",
+      "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leandro\\Documents\\practice-parcial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

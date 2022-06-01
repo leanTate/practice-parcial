@@ -27,7 +27,7 @@ namespace arbol_genealogico
         private void SavePersona(string Name, string Lastname, int Age,string mother,string father){
             FileStream FPersons = new FileStream("Persons.csv", FileMode.Append);
             StreamWriter Wsalida = new StreamWriter(FPersons);
-            var register = Name+";"+Lastname+";"+Age.ToString()+";"+mother+";"+father;
+            var register = Name+","+Lastname+","+Age.ToString()+","+mother+","+father;
             Wsalida.WriteLine(register);
             Wsalida.Close();
             FPersons.Close();

@@ -16,3 +16,21 @@ C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol gene
 C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol genealogico.genruntimeconfig.cache
 C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\ref\arbol genealogico.dll
 C:\Users\lean\source\repos\arbol genealogico\obj\Debug\net6.0-windows\arbol_genealogico.frame2.resources
+C:\Users\Leandro\Documents\practice-parcial\bin\Debug\net6.0-windows\arbol genealogico.exe
+C:\Users\Leandro\Documents\practice-parcial\bin\Debug\net6.0-windows\arbol genealogico.deps.json
+C:\Users\Leandro\Documents\practice-parcial\bin\Debug\net6.0-windows\arbol genealogico.runtimeconfig.json
+C:\Users\Leandro\Documents\practice-parcial\bin\Debug\net6.0-windows\arbol genealogico.dll
+C:\Users\Leandro\Documents\practice-parcial\bin\Debug\net6.0-windows\arbol genealogico.pdb
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.csproj.AssemblyReference.cache
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol_genealogico.Form1.resources
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol_genealogico.frame2.resources
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.csproj.GenerateResource.cache
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.AssemblyInfoInputs.cache
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.AssemblyInfo.cs
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.dll
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\refint\arbol genealogico.dll
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.pdb
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\arbol genealogico.genruntimeconfig.cache
+C:\Users\Leandro\Documents\practice-parcial\obj\Debug\net6.0-windows\ref\arbol genealogico.dll

@@ -13,55 +13,64 @@ namespace arbol_genealogico
     public partial class frame2 : Form
     {
         List<string> listPersons = new List<string>();
-        public frame2()
-        {
-            InitializeComponent();
+
+        public void LoadCSV() {
             FileStream FPersons = new FileStream("Persons.csv", FileMode.Open, FileAccess.Read);
             StreamReader SRPersons = new StreamReader(FPersons);
             string line = "";
-            while ((line = SRPersons.ReadLine()) != null){
-                string[] fields = line.Split(';');
+            while ((line = SRPersons.ReadLine()) != null)
+            {
+                string[] fields = line.Split(',');
                 string name = fields[0];
                 string lastname = fields[1];
                 string age = fields[2];
+                string mother = fields[3];
                 //MessageBox.Show($"se agrego:{name},{lastname},{age}");
-                listPersons.Add($"{name};{lastname};{age}");
+                listPersons.Add($"{name};{lastname};{age};{mother}");
                 lista1.DataSource = null;
                 lista1.DataSource = listPersons;
             }
             FPersons.Close();
             SRPersons.Close();
         }
+        public frame2()
+        {
+            InitializeComponent();
+            LoadCSV();
+        }
         public void UpdateMother(string mother) {
             string selectedItem = lista1.Items[lista1.SelectedIndex].ToString();//recordar slecciona el item
-            string[] fields = selectedItem.Split(',');
+            string[] fields = selectedItem.Split(';');
             string name = fields[0];
             string lastname = fields[1];
-
-            FileStream FPersons = new FileStream("Persons.csv", FileMode.Open,FileAccess.ReadWrite);
-            StreamReader SRPersons = new StreamReader(FPersons);
-            StreamWriter SWPersons = new StreamWriter(FPersons);    
-            int i=0;
-            string line;
-            while ((line = SRPersons.ReadLine()) != null) {
-                i++;
-                string[] fields2 = line.Split(';');
-                string nameList = fields2[0];
-                string lastnameList = fields2[1];
-                string ageList = fields2[2];
-                if (name == nameList && lastname == lastnameList) {
-                    line = fields2[0] + ";" + fields2[1] +";"+ fields2[2] +";" +mother;
-                    
-                    File.WriteAllLines("Personas.csv", listPersons);
-                    File.Delete("Persons.csv");
-                    File.Move("Personas.csv","Persons.csv");
-                    
+            string changes;
+            string[] arrayChanges;
+            FileStream FS = new FileStream("Persons.csv", FileMode.Open,FileAccess.Read);
+            FileStream FSCopy = new FileStream("SalidaCopy.csv", FileMode.Create);
+            StreamReader SR = new StreamReader(FS);
+            StreamWriter SW = new StreamWriter(FSCopy);
+            while ((changes = SR.ReadLine())!=null)
+            {
+                arrayChanges = changes.Split(',');
+                mother = TxtMadre.Text;
+                if (name == arrayChanges[0])
+                {
+                    changes = $"{arrayChanges[0]},{arrayChanges[1]},{arrayChanges[2]},{TxtMadre.Text},{arrayChanges[4]}";
                 }
+
+                MessageBox.Show(changes);
+                SW.WriteLine(changes);
             }
-                MessageBox.Show("se actualizo la madre");
-                SWPersons.Close();
-                FPersons.Close();
-                SRPersons.Close();
+            SR.Close();
+            SW.Close();
+            FS.Close();
+            FSCopy.Close();
+            File.Delete("Persons.csv");
+            File.Move("SalidaCopy.csv", "Persons.csv");
+            MessageBox.Show("se actualizo la madre");
+            lista1.DataSource = null;
+            listPersons.Clear();
+            LoadCSV();
         }
         public void UpdateFather(string Father)
         {
